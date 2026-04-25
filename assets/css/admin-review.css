@@ -1,0 +1,74 @@
+.nmg-rev-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+/* Tabel Review */
+.nmg-rev-table {
+    table-layout: fixed; /* Mencegah kolom melar (anti glitch saat status berubah) */
+    width: 100%;
+    min-width: 850px; /* KUNCI PERBAIKAN: Memaksa tabel memiliki batas minimum lebar agar BISA DI-SCROLL ke samping saat di HP */
+}
+
+.nmg-rev-table th {
+    color: #8b95a1;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f8e9;
+    padding: 20px 10px;
+}
+
+.nmg-rev-table td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #f8f9fa;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+.nmg-rev-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.nmg-rev-table tbody tr:hover {
+    background-color: #fcfdfa;
+}
+
+.star-filled { color: #ffcc00; font-size: 1.1rem; }
+.star-empty { color: #e4e5e9; font-size: 1.1rem; }
+
+.nmg-rev-badge-approved {
+    background-color: #e8f5e9; color: #2e7d32;
+    padding: 6px 0; width: 85px; /* Mengunci lebar badge */
+    text-align: center; border-radius: 50px;
+    font-size: 0.75rem; font-weight: 700; display: inline-block;
+}
+
+.nmg-rev-badge-pending {
+    background-color: #fff3e0; color: #ef6c00;
+    padding: 6px 0; width: 85px; /* Mengunci lebar badge */
+    text-align: center; border-radius: 50px;
+    font-size: 0.75rem; font-weight: 700; display: inline-block;
+}
+
+.nmg-rev-btn {
+    border-radius: 8px;
+    width: 36px; height: 36px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-warning.nmg-rev-btn { color: #ef6c00; background-color: #fff8e1; }
+.btn-outline-warning.nmg-rev-btn:hover { background-color: #ef6c00; color: #ffffff; transform: translateY(-2px); }
+.btn-outline-success.nmg-rev-btn { color: var(--primary-green); background-color: #e8f5e9; }
+.btn-outline-success.nmg-rev-btn:hover { background-color: var(--primary-green); color: #ffffff; transform: translateY(-2px); }
+.btn-outline-danger.nmg-rev-btn { color: #dc3545; background-color: #ffebeb; }
+.btn-outline-danger.nmg-rev-btn:hover { background-color: #dc3545; color: #ffffff; transform: translateY(-2px); }

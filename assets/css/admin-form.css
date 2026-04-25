@@ -1,0 +1,99 @@
+.nmg-add-news-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0,0,0,0.04);
+    margin-top: 10px;
+}
+
+.nmg-section {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.03);
+}
+
+.nmg-section .form-label {
+    font-weight: 700;
+    color: var(--primary-green);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.nmg-section .form-control {
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.nmg-section .form-control:focus {
+    border-color: var(--primary-green);
+    box-shadow: 0 0 0 3px rgba(27, 67, 19, 0.1);
+}
+
+.nmg-upload-area {
+    background-color: #ffffff;
+    border: 2px dashed #ced4da;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nmg-upload-area:hover {
+    border-color: var(--primary-green);
+    background-color: #f1f8e9;
+}
+
+.nmg-upload-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-green);
+    margin-bottom: 10px;
+}
+
+.nmg-divider {
+    height: 1px;
+    background-color: #dee2e6;
+    width: 100%;
+}
+
+.nmg-btn-cancel {
+    color: #6c757d;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.nmg-btn-cancel:hover {
+    background-color: #f8f9fa;
+    color: #dc3545;
+}
+
+.nmg-btn-save {
+    background-color: var(--primary-green);
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.nmg-btn-save:hover {
+    background-color: #ffcc00;
+    color: var(--primary-green);
+    transform: translateY(-2px);
+}

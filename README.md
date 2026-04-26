@@ -172,6 +172,8 @@ Informasi yang ditampilkan meliputi:
 
 # Sruktur Folder Naureen Mini Garden
 
+Pada pengembangan website Naureen Mini Garden, sistem dibangun menggunakan konsep MVC (Model View Controller). Arsitektur MVC digunakan untuk memisahkan antara bagian pengolahan data, tampilan antarmuka, dan logika program sehingga sistem menjadi lebih terstruktur dan mudah dikembangkan.
+
 ```bash
 NAUREEN-MINI-GARDEN/
 │

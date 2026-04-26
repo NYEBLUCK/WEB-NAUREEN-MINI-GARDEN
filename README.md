@@ -55,15 +55,15 @@ Database db_nmg terdiri dari beberapa tabel utama yang digunakan untuk mendukung
 
 Sistem website Naureen Mini Garden menyediakan fitur autentikasi untuk menjaga keamanan akses ke panel administrasi. Proses login dilakukan menggunakan username dan password yang hanya dimiliki oleh admin.
 
-## 1. Login Admin
+## Login Admin
 
 Admin dapat masuk ke dalam sistem melalui halaman login dengan memasukkan username dan password yang valid. Sistem akan memverifikasi data login sebelum memberikan akses ke dashboard. Admin bertanggung jawab dalam mengelola akun yang digunakan untuk mengakses sistem. Pada sistem ini, akun admin bersifat terbatas dan hanya digunakan oleh pengelola utama website.
 
-## 2. Fitur Admin
+### Fitur Admin
 
 Admin merupakan pengguna yang memiliki kontrol penuh terhadap sistem website Naureen Mini Garden. Admin bertanggung jawab dalam mengelola seluruh informasi yang ditampilkan pada website, seperti data kegiatan, fasilitas, dan ulasan pengunjung. Admin memiliki peran penting dalam menjaga keakuratan dan kelengkapan informasi pada website. 
 
-### Manajemen Berita / Kegiatan (CRUD)
+#### Manajemen Berita / Kegiatan (CRUD)
 
 Fitur ini meliputi:
 
@@ -75,7 +75,7 @@ Fitur ini meliputi:
 
 Fitur ini digunakan untuk memastikan bahwa informasi kegiatan yang tersedia pada website selalu diperbarui dan relevan dengan kondisi terbaru di tempat wisata.
 
-### Manajemen Komentar Pengunjung
+#### Manajemen Komentar Pengunjung
 
 Admin dapat mengelola ulasan atau komentar yang diberikan oleh pengunjung pada website.
 
@@ -87,5 +87,85 @@ Fitur ini meliputi:
 
 Fitur ini berfungsi untuk menjaga kualitas informasi dan memastikan bahwa komentar yang ditampilkan pada website bersifat positif dan sesuai.
 
+## Pengunjung 
 
+Pengunjung merupakan pengguna umum yang mengakses website Naureen Mini Garden untuk memperoleh informasi mengenai tempat wisata, fasilitas, serta kegiatan yang tersedia. Pengunjung tidak perlu melakukan login untuk menggunakan fitur pada website.
 
+#### Melihat Halaman Beranda
+
+Pengunjung dapat melihat halaman utama website yang menampilkan gambaran umum mengenai Naureen Mini Garden. Pada halaman ini ditampilkan informasi penting seperti deskripsi tempat wisata, jam operasional, harga tiket masuk, serta lokasi wisata. Fitur ini digunakan untuk memberikan informasi awal kepada pengunjung mengenai layanan dan fasilitas yang tersedia.
+
+Informasi yang ditampilkan meliputi:
+
+- Deskripsi singkat Naureen Mini Garden
+- Jam operasional wisata
+- Harga tiket masuk
+- Lokasi wisata
+- Tombol navigasi menuju fasilitas
+
+#### Melihat Keunggulan Wisata
+
+Pengunjung dapat melihat bagian keunggulan wisata yang menampilkan alasan mengapa tempat wisata ini layak untuk dikunjungi. Bagian ini menampilkan berbagai daya tarik wisata seperti suasana alam, spot foto, dan kegiatan edukasi. Fitur ini bertujuan untuk memberikan gambaran kepada pengunjung mengenai manfaat dan pengalaman yang dapat diperoleh ketika berkunjung.
+
+Informasi yang ditampilkan meliputi:
+
+- Wisata keluarga
+- Spot foto menarik
+- Suasana alam
+- Kegiatan edukasi
+
+#### Melihat Fasilitas Wisata
+
+Pengunjung dapat melihat daftar fasilitas yang tersedia di Naureen Mini Garden. Setiap fasilitas ditampilkan dalam bentuk gambar dan deskripsi singkat agar mudah dipahami oleh pengunjung. Fitur ini membantu pengunjung mengetahui layanan yang tersedia sebelum datang ke lokasi wisata.
+
+Fasilitas yang ditampilkan meliputi:
+
+- Spot foto estetik
+- Terapi ikan
+- Gazebo dan cottage
+- Pemancingan
+- Paket edukasi
+- Fasilitas pendukung
+
+#### Melihat Detail Wisata
+
+Pengunjung dapat melihat informasi lebih lengkap mengenai fasilitas atau kegiatan tertentu dengan menekan tombol Lihat Detail pada halaman fasilitas. Fitur ini digunakan untuk menampilkan penjelasan lebih rinci mengenai layanan wisata tanpa membuat halaman utama terlalu padat.
+
+Informasi yang ditampilkan meliputi:
+
+- Nama fasilitas
+- Deskripsi fasilitas
+- Harga layanan
+- Gambar fasilitas
+
+#### Melihat Berita atau Kegiatan
+
+Pengunjung dapat melihat informasi kegiatan atau aktivitas terbaru yang tersedia pada website. Informasi ini ditampilkan dalam bentuk artikel yang berisi gambar dan deskripsi kegiatan. Fitur ini digunakan sebagai media informasi bagi pengunjung mengenai kegiatan terbaru di Naureen Mini Garden.
+
+Informasi yang ditampilkan meliputi:
+
+- Judul kegiatan
+- Tanggal kegiatan
+- Gambar kegiatan
+- Deskripsi kegiatan
+
+#### Memberikan Ulasan / Komentar
+
+Pengunjung dapat memberikan ulasan atau komentar mengenai pengalaman mereka setelah berkunjung ke tempat wisata. Komentar yang diberikan oleh pengunjung akan disimpan dalam sistem dan hanya akan ditampilkan pada website setelah disetujui oleh admin. Fitur ini digunakan untuk meningkatkan interaksi antara pengunjung dan pengelola serta menjadi bahan evaluasi dalam meningkatkan kualitas layanan.
+
+Data yang diinput oleh pengunjung meliputi:
+
+- Nama pengunjung
+- Email
+- Rating
+- Komentar
+
+#### Melihat Informasi Lokasi dan Kontak
+
+Pengunjung dapat melihat informasi lokasi wisata serta peta lokasi yang terhubung dengan Google Maps. Informasi ini membantu pengunjung dalam menemukan lokasi tempat wisata dengan lebih mudah.
+
+Informasi yang ditampilkan meliputi:
+
+- Alamat wisata
+- Peta lokasi
+- Kontak pengelola

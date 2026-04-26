@@ -105,24 +105,24 @@ Database db_nmg terdiri dari beberapa tabel utama yang digunakan untuk mendukung
 1. Tabel users
 
     Tabel users digunakan untuk menyimpan data akun admin yang memiliki hak akses untuk mengelola website. Data pada tabel ini digunakan saat proses login ke dalam sistem. Tabel ini berfungsi untuk memastikan bahwa hanya pengguna yang memiliki akun admin yang dapat mengakses panel administrasi. Fungsi Tabel user:
-  - Menyimpan data akun admin
-  - Digunakan untuk proses login
-  - Mengamankan akses sistem
-  - Struktur Field Tabel Admin
+      - Menyimpan data akun admin
+      - Digunakan untuk proses login
+      - Mengamankan akses sistem
+      - Struktur Field Tabel Admin
 
 2. Tabel Berita
 
     Tabel berita digunakan untuk menyimpan data kegiatan atau informasi yang akan ditampilkan pada website. Data pada tabel ini akan muncul pada halaman berita atau kegiatan terbaru. Tabel ini memungkinkan admin untuk menambahkan, mengedit, dan menghapus informasi kegiatan secara digital melalui panel administrasi. Fungsi Tabel Berita:
-  - Menyimpan data kegiatan
-  - Menampilkan informasi berita pada website
-  - Mendukung fitur tambah, edit, dan hapus berita
+      - Menyimpan data kegiatan
+      - Menampilkan informasi berita pada website
+      - Mendukung fitur tambah, edit, dan hapus berita
     
 3. Tabel reviews
 
     Tabel reviews digunakan untuk menyimpan data ulasan atau komentar yang diberikan oleh pengunjung pada website. Data pada tabel ini akan ditampilkan pada halaman ulasan setelah disetujui oleh admin. Tabel ini mendukung interaksi antara pengunjung dan pengelola website melalui fitur ulasan. Fungsi Tabel reviews:
-  - Menyimpan ulasan pengunjung
-  - Menampilkan komentar pada website
-  - Mendukung fitur persetujuan (ACC) komentar
+      - Menyimpan ulasan pengunjung
+      - Menampilkan komentar pada website
+      - Mendukung fitur persetujuan (ACC) komentar
 
 --- 
 

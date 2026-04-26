@@ -201,11 +201,11 @@ Database db_nmg terdiri dari beberapa tabel utama yang digunakan untuk mendukung
 
 <img width="1915" height="881" alt="image" src="https://github.com/user-attachments/assets/55665436-1b59-4430-a5fc-7ebcaa860a40" />
 
-# Kesimpulan
+## ↳ Kesimpulan
 
 Website Naureen Mini Garden merupakan sistem informasi berbasis web yang dirancang untuk memberikan informasi mengenai fasilitas, kegiatan, dan layanan wisata kepada pengunjung secara mudah dan terstruktur. Sistem ini juga membantu admin dalam mengelola data berita dan ulasan pengunjung melalui dashboard yang tersedia. Dengan menggunakan konsep Model View Controller (MVC), website ini memiliki struktur yang lebih terorganisir, mudah dikembangkan, serta mendukung proses digitalisasi pengelolaan informasi wisata secara efektif dan efisien.
 
-# Anggota Kelompok 1
+## ↳ Anggota Kelompok 1
 
 1. Dwi Pebriyanto Pradana [2409116012]
 2. Rahmad Ramadhan [2409116018]

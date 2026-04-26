@@ -1,14 +1,14 @@
-# NAUREEN MINI GARDEN SAMARINDA 
-
 <img width="3780" height="1890" alt="Salinan dari Naureen Mini Garden - PBW (Banner Horizontal)" src="https://github.com/user-attachments/assets/b17f4922-b0c3-4792-834f-f4e72975f31f" />
 
-# Deskripsi Website
+# NAUREEN MINI GARDEN SAMARINDA 
 
 Website Naureen Mini Garden merupakan sistem informasi berbasis web yang digunakan sebagai media informasi dan promosi destinasi wisata edukasi dan rekreasi keluarga di Kota Samarinda. Website ini menyediakan berbagai informasi penting mengenai fasilitas wisata, kegiatan edukasi, harga tiket, lokasi wisata, serta ulasan pengunjung.
 
 Selain itu, website ini juga dilengkapi dengan sistem administrasi yang memungkinkan pengelola untuk mengelola data berita kegiatan dan komentar pengunjung secara digital sehingga informasi dapat diperbarui dengan mudah dan cepat.
 
-# Tujuan Website 
+---
+
+## ↳ Tujuan Website 
 
 Tujuan dari pembuatan aplikasi ini adalah:
 
@@ -18,20 +18,37 @@ Tujuan dari pembuatan aplikasi ini adalah:
 - Mendukung promosi wisata secara online
 - Meningkatkan efisiensi pengelolaan informasi wisata
 
-# Perancangan Database
+--- 
 
-Perancangan database pada sistem Website Naureen Mini Garden bertujuan untuk menyimpan dan mengelola data yang digunakan dalam sistem secara terstruktur dan mudah diakses. Database yang digunakan dalam sistem ini adalah MySQL, yang berfungsi sebagai media penyimpanan data seperti data admin, data berita kegiatan, dan data ulasan pengunjung.
+## ↳ Fitur Website
+Website ini terbagi menjadi dua hak akses utama, yaitu bagian Pengunjung dan bagian Administrator. berikut adalah fitur-fitur yang tersedia:
+### Fitur Pengunjung 🌟
+- Katalog Berita & Kegiatan: Pengunjung dapat membaca informasi terbaru, pengumuman, dan deskripsi kegiatan yang diadakan di Naureen Mini Garden.
+- Galeri & Informasi Spot Wisata: Pengunjung dapat melihat fasilitas, produk, serta spot foto terbaru beserta rincian harga tiket masuk.
+- Sistem Ulasan: Pengunjung dapat mengirimkan ulasan pengalaman mereka lengkap dengan nama, email, komentar, dan rating. Ulasan akan ditampilkan di website setelah disetujui oleh admin.
 
-Database dirancang dengan struktur yang sederhana karena sistem yang dikembangkan masih berskala kecil dan hanya digunakan oleh satu admin sebagai pengelola. Setiap tabel dalam database memiliki fungsi masing-masing dan dapat berjalan secara mandiri tanpa menggunakan relasi antar tabel. Dengan perancangan database ini, proses pengelolaan data pada website dapat dilakukan dengan lebih mudah, cepat, dan efisien.
+### Fitur Administrator 🔒
+- Login Sistem: Akses aman menggunakan username dan password khusus pengelola/admin.
+- Manajemen Berita (CRUD): Admin dapat menambah, mengubah, menghapus, serta mengunggah gambar untuk artikel berita atau kegiatan wisata.
+- Moderasi Ulasan: Admin memiliki kontrol penuh untuk memfilter ulasan dari pengunjung. Sistem dilengkapi dengan status moderasi yaitu pending atau approved agar hanya ulasan yang valid dan sopan yang ditampilkan di halaman publik.
 
+---
 
-## Struktur Tabel Database
+## ↳ Perancangan Database
+Database ini menggunakan sistem Relational Database Management System berbasis MySQL, dengan nama database yang digunakan adalah db_nmg.
+Secara konseptual, database ini dirancang untuk mendukung sebuah Content Management System (CMS) sederhana dengan tiga entitas utama yang berdiri sendiri:
+- Entitas Admin (users): Bertugas mengelola hak akses ke dashboard (halaman belakang/ back-end).
+- Entitas Konten (berita): Bertugas menyimpan data publikasi wisata, kegiatan, dan produk.
+- Entitas Interaksi (reviews): Bertugas menampung umpan balik pengunjung dengan sistem moderasi.
 
+---
+
+## ↳ Struktur Tabel Database
 Database db_nmg terdiri dari beberapa tabel utama yang digunakan untuk mendukung jalannya sistem website, yaitu:
 
-1. Tabel Admin
+1. Tabel users
 
-    Tabel admin digunakan untuk menyimpan data akun admin yang memiliki hak akses untuk mengelola website. Data pada tabel ini digunakan saat proses login ke dalam sistem. Tabel ini berfungsi untuk memastikan bahwa hanya pengguna yang memiliki akun admin yang dapat mengakses panel administrasi. Fungsi Tabel Admin:
+    Tabel users digunakan untuk menyimpan data akun admin yang memiliki hak akses untuk mengelola website. Data pada tabel ini digunakan saat proses login ke dalam sistem. Tabel ini berfungsi untuk memastikan bahwa hanya pengguna yang memiliki akun admin yang dapat mengakses panel administrasi. Fungsi Tabel Admin:
   - Menyimpan data akun admin
   - Digunakan untuk proses login
   - Mengamankan akses sistem
@@ -179,7 +196,7 @@ Informasi yang ditampilkan meliputi:
 Pada pengembangan website Naureen Mini Garden, sistem dibangun menggunakan konsep MVC (Model View Controller). Arsitektur MVC digunakan untuk memisahkan antara bagian pengolahan data, tampilan antarmuka, dan logika program sehingga sistem menjadi lebih terstruktur dan mudah dikembangkan.
 
 ```bash
-NAUREEN-MINI-GARDEN/
+naureen-mini-garden/
 │
 ├── app/
 │   ├── controllers/
@@ -187,36 +204,45 @@ NAUREEN-MINI-GARDEN/
 │   │   ├── BeritaController.php
 │   │   └── ReviewController.php
 │   │
-│   ├── models/
-│   │   ├── BeritaModel.php
-│   │   ├── ReviewModel.php
-│   │   └── UserModel.php
+│   └── models/
+│       ├── BeritaModel.php
+│       ├── ReviewModel.php
+│       └── UserModel.php
 │
 ├── assets/
 │   ├── css/
+│   │   └── [Kumpulan file .css]
+│   │
 │   ├── images/
+│   │   └── [Kumpulan file gambar statis]
+│   │
 │   └── uploads/
+│       └── [Kumpulan file gambar berita yang diunggah]
 │
 ├── config/
 │   └── koneksi.php
 │
 ├── Views/
+│   ├── beranda.php
+│   ├── berita.php
+│   ├── detail.php
+│   ├── login.php
+│   ├── tentang.php
+│   │
 │   ├── admin/
 │   │   ├── dashboard.php
-│   │   ├── kelola_berita.php
-│   │   ├── tambah_berita.php
 │   │   ├── edit_berita.php
-│   │   └── kelola_review.php
+│   │   ├── kelola_berita.php
+│   │   ├── kelola_review.php
+│   │   └── tambah_berita.php
 │   │
 │   └── templates/
-│       ├── beranda.php
-│       ├── berita.php
-│       ├── detail.php
-│       ├── login.php
-│       └── tentang.php
+│       ├── footer_public.php
+│       ├── navbar_admin.php
+│       ├── navbar_public.php
+│       └── sidebar_admin.php
 │
-├── index.php
-└── README.md
+└── index.php
 ```
 
 # Tampilan Website 

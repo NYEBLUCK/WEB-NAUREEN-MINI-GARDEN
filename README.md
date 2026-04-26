@@ -50,3 +50,42 @@ Database db_nmg terdiri dari beberapa tabel utama yang digunakan untuk mendukung
   - Menyimpan ulasan pengunjung
   - Menampilkan komentar pada website
   - Mendukung fitur persetujuan (ACC) komentar
+
+# Autentikasi & Manajemen Akun
+
+Sistem website Naureen Mini Garden menyediakan fitur autentikasi untuk menjaga keamanan akses ke panel administrasi. Proses login dilakukan menggunakan username dan password yang hanya dimiliki oleh admin.
+
+## 1. Login Admin
+
+Admin dapat masuk ke dalam sistem melalui halaman login dengan memasukkan username dan password yang valid. Sistem akan memverifikasi data login sebelum memberikan akses ke dashboard. Admin bertanggung jawab dalam mengelola akun yang digunakan untuk mengakses sistem. Pada sistem ini, akun admin bersifat terbatas dan hanya digunakan oleh pengelola utama website.
+
+## 2. Fitur Admin
+
+Admin merupakan pengguna yang memiliki kontrol penuh terhadap sistem website Naureen Mini Garden. Admin bertanggung jawab dalam mengelola seluruh informasi yang ditampilkan pada website, seperti data kegiatan, fasilitas, dan ulasan pengunjung. Admin memiliki peran penting dalam menjaga keakuratan dan kelengkapan informasi pada website. 
+
+### Manajemen Berita / Kegiatan (CRUD)
+
+Fitur ini meliputi:
+
+- Menambahkan berita atau kegiatan baru
+- Mengedit data berita
+- Menghapus berita
+- Mengunggah gambar kegiatan
+- Menampilkan berita pada halaman website
+
+Fitur ini digunakan untuk memastikan bahwa informasi kegiatan yang tersedia pada website selalu diperbarui dan relevan dengan kondisi terbaru di tempat wisata.
+
+### Manajemen Komentar Pengunjung
+
+Admin dapat mengelola ulasan atau komentar yang diberikan oleh pengunjung pada website.
+
+Fitur ini meliputi:
+
+- Melihat daftar komentar pengunjung
+- Menyetujui (ACC) komentar
+- Menghapus komentar yang tidak sesuai
+
+Fitur ini berfungsi untuk menjaga kualitas informasi dan memastikan bahwa komentar yang ditampilkan pada website bersifat positif dan sesuai.
+
+
+

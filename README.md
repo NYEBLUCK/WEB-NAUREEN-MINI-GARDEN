@@ -237,7 +237,7 @@ NAUREEN-MINI-GARDEN/
 
 ### Melihat Berita atau Kegiatan
 
-BOLOOOMMM
+<img width="589" height="815" alt="image" src="https://github.com/user-attachments/assets/2f8dd054-29e1-481d-b5f9-4d7611ee5ee3" />
 
 ### Memberikan Ulasan / Komentar
 

@@ -221,39 +221,39 @@ NAUREEN-MINI-GARDEN/
 
 # Tampilan Website 
 
-### Pengujung
+## Pengujung
 
-#### Melihat Halaman Beranda
+### Melihat Halaman Beranda
 
 <img width="1896" height="891" alt="image" src="https://github.com/user-attachments/assets/5b30a9f0-deb9-4990-9f49-c2acf5d03deb" />
 
-##### Melihat Keunggulan Wisata
+### Melihat Keunggulan Wisata
 
 <img width="1897" height="801" alt="image" src="https://github.com/user-attachments/assets/ea4bb686-f547-4850-ae83-e9d124c97e27" />
 
-##### Melihat Fasilitas Wisata
+### Melihat Fasilitas Wisata
 
 <img width="1899" height="825" alt="image" src="https://github.com/user-attachments/assets/25b6a522-fcc8-48bf-82f3-80cf624ff4f6" />
 
-##### Melihat Berita atau Kegiatan
+### Melihat Berita atau Kegiatan
 
 BOLOOOMMM
 
-##### Memberikan Ulasan / Komentar
+### Memberikan Ulasan / Komentar
 
 <img width="1894" height="891" alt="image" src="https://github.com/user-attachments/assets/f3d7956e-e974-497d-b52d-1f399dd06ae6" />
 
-##### Melihat Informasi Lokasi dan Kontak
+### Melihat Informasi Lokasi dan Kontak
 
 <img width="1894" height="561" alt="image" src="https://github.com/user-attachments/assets/200a89bb-cd9c-4637-8777-0cc319d3f721" />
 
-##### Tentang Naureen Mini Garden 
+### Tentang Naureen Mini Garden 
 
 <img width="1896" height="881" alt="image" src="https://github.com/user-attachments/assets/5ea54aed-16ae-4e0a-8aaa-e680e9461b63" />
 
 <img width="1901" height="888" alt="image" src="https://github.com/user-attachments/assets/e985e64f-ead0-4e6b-8c93-ad2a7c77dbf5" />
 
-##### Melihat Detail Wisata
+### Melihat Detail Wisata
 
 <img width="1897" height="886" alt="image" src="https://github.com/user-attachments/assets/4ff8524a-3ded-4d7f-887f-04ce00c0b7d3" />
 
@@ -274,3 +274,36 @@ BOLOOOMMM
 <img width="1893" height="885" alt="image" src="https://github.com/user-attachments/assets/2511cff0-23b4-4ba7-8298-3f9742b1f011" />
 
 <img width="1897" height="883" alt="image" src="https://github.com/user-attachments/assets/f21da199-5cb0-41b1-a4b0-323236d3674d" />
+
+## Admin 
+
+### Halaman Login
+
+<img width="1912" height="886" alt="image" src="https://github.com/user-attachments/assets/d164ba8f-0fc5-45e7-a65c-091d156528f2" />
+
+### Dashboard 
+
+<img width="1916" height="882" alt="image" src="https://github.com/user-attachments/assets/72edf61d-5e47-47c1-bee9-64ec211c801a" />
+
+### Tampilan Kelola Berita 
+
+<img width="1919" height="883" alt="image" src="https://github.com/user-attachments/assets/34c76140-8850-4cdb-bee9-a05a204011f6" />
+
+### CRUD Kelola Berita 
+
+<img width="1919" height="883" alt="image" src="https://github.com/user-attachments/assets/8e568e35-08e0-4949-bb83-dd32e95f5598" />
+
+### Tampilan Kelola Reviews
+
+<img width="1915" height="881" alt="image" src="https://github.com/user-attachments/assets/55665436-1b59-4430-a5fc-7ebcaa860a40" />
+
+# Kesimpulan
+
+Website Naureen Mini Garden merupakan sistem informasi berbasis web yang dirancang untuk memberikan informasi mengenai fasilitas, kegiatan, dan layanan wisata kepada pengunjung secara mudah dan terstruktur. Sistem ini juga membantu admin dalam mengelola data berita dan ulasan pengunjung melalui dashboard yang tersedia. Dengan menggunakan konsep Model View Controller (MVC), website ini memiliki struktur yang lebih terorganisir, mudah dikembangkan, serta mendukung proses digitalisasi pengelolaan informasi wisata secara efektif dan efisien.
+
+# Anggota Kelompok 1
+
+1. Dwi Pebriyanto Pradana [2409116012]
+2. Rahmad Ramadhan [2409116018]
+3. Zahra Aulia Rahmah [2409116020]
+4. Dilla Maharani [2409116023]

@@ -84,6 +84,7 @@ naureen-mini-garden/
 │       ├── navbar_public.php
 │       └── sidebar_admin.php
 │
+├── .htaccess
 └── index.php
 ```
 

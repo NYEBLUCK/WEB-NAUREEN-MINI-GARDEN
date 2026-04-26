@@ -169,3 +169,46 @@ Informasi yang ditampilkan meliputi:
 - Alamat wisata
 - Peta lokasi
 - Kontak pengelola
+
+# Sruktur Folder Naureen Mini Garden
+
+```bash
+NAUREEN-MINI-GARDEN/
+│
+├── app/
+│   ├── controllers/
+│   │   ├── AuthController.php
+│   │   ├── BeritaController.php
+│   │   └── ReviewController.php
+│   │
+│   ├── models/
+│   │   ├── BeritaModel.php
+│   │   ├── ReviewModel.php
+│   │   └── UserModel.php
+│
+├── assets/
+│   ├── css/
+│   ├── images/
+│   └── uploads/
+│
+├── config/
+│   └── koneksi.php
+│
+├── Views/
+│   ├── admin/
+│   │   ├── dashboard.php
+│   │   ├── kelola_berita.php
+│   │   ├── tambah_berita.php
+│   │   ├── edit_berita.php
+│   │   └── kelola_review.php
+│   │
+│   └── templates/
+│       ├── beranda.php
+│       ├── berita.php
+│       ├── detail.php
+│       ├── login.php
+│       └── tentang.php
+│
+├── index.php
+└── README.md
+```

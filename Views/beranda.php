@@ -174,7 +174,7 @@
             <div class="swiper swiper-berita">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" v-for="item in beritaList" :key="item.id">
-                        <a :href="'berita.php?id=' + item.id" class="text-decoration-none d-block h-100">
+                        <a :href="'berita.php?id=' + item.id" class="text-decoration-none d-block h-100 w-100">
                             <div class="card berita-card shadow-sm h-100" 
                                 @mouseenter="hoverBeritaId = item.id" 
                                 @mouseleave="hoverBeritaId = null">

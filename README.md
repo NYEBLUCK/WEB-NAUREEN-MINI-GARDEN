@@ -1,10 +1,17 @@
 <img width="3780" height="1890" alt="Salinan dari Naureen Mini Garden - PBW (Banner Horizontal)" src="https://github.com/user-attachments/assets/b17f4922-b0c3-4792-834f-f4e72975f31f" />
 
-# NAUREEN MINI GARDEN SAMARINDA 
+---
 
-Website Naureen Mini Garden merupakan sistem informasi berbasis web yang digunakan sebagai media informasi dan promosi destinasi wisata edukasi dan rekreasi keluarga di Kota Samarinda. Website ini menyediakan berbagai informasi penting mengenai fasilitas wisata, kegiatan edukasi, harga tiket, lokasi wisata, serta ulasan pengunjung.
+# Website Informasi Wisata Naureen Mini Garden ── ⟡ ˙🌱 ̟
 
-Selain itu, website ini juga dilengkapi dengan sistem administrasi yang memungkinkan pengelola untuk mengelola data berita kegiatan dan komentar pengunjung secara digital sehingga informasi dapat diperbarui dengan mudah dan cepat.
+Website Naureen Mini Garden merupakan sistem informasi berbasis web yang digunakan sebagai media informasi dan promosi destinasi wisata edukasi dan rekreasi keluarga di Kota Samarinda, Kalimantan Timur. Website ini menyediakan berbagai informasi penting seperti fasilitas wisata, kegiatan edukasi, harga tiket, lokasi, serta ulasan pengunjung, sehingga pengunjung bisa mendapatkan informasi dengan lebih lengkap dan terstruktur.
+
+Selain itu, website ini juga dilengkapi dengan sistem administrasi untuk mengelola data berita dan komentar pengunjung secara digital. Pengelola jadi lebih mudah dalam memperbarui informasi yang ditampilkan.
+
+---
+## ↳ Latar Belakang
+
+Naureen Mini Garden belum memiliki website resmi sebagai media informasi digital. Selama ini promosi hanya dilakukan melalui media sosial seperti Instagram dan TikTok, sehingga informasi belum tersampaikan secara terstruktur kepada masyarakat.
 
 ---
 
@@ -12,25 +19,41 @@ Selain itu, website ini juga dilengkapi dengan sistem administrasi yang memungki
 
 Tujuan dari pembuatan aplikasi ini adalah:
 
-- Menyediakan media informasi digital mengenai Naureen Mini Garden
+- Menyediakan media informasi digital yang lengkap mengenai Naureen Mini Garden
 - Mempermudah pengunjung dalam memperoleh informasi wisata
-- Membantu pengelola dalam mengelola data kegiatan dan komentar
+- Membantu pengelola dalam mengelola data kegiatan dan komentar secara digital
 - Mendukung promosi wisata secara online
-- Meningkatkan efisiensi pengelolaan informasi wisata
+- Membuat pengelolaan informasi menjadi lebih praktis
 
 --- 
 
 ## ↳ Fitur Website
-Website ini terbagi menjadi dua hak akses utama, yaitu bagian Pengunjung dan bagian Administrator. berikut adalah fitur-fitur yang tersedia:
-### Fitur Pengunjung 🌟
-- Katalog Berita & Kegiatan: Pengunjung dapat membaca informasi terbaru, pengumuman, dan deskripsi kegiatan yang diadakan di Naureen Mini Garden.
-- Galeri & Informasi Spot Wisata: Pengunjung dapat melihat fasilitas, produk, serta spot foto terbaru beserta rincian harga tiket masuk.
-- Sistem Ulasan: Pengunjung dapat mengirimkan ulasan pengalaman mereka lengkap dengan nama, email, komentar, dan rating. Ulasan akan ditampilkan di website setelah disetujui oleh admin.
+Website Naureen Mini Garden memiliki dua jenis pengguna utama, yaitu pengunjung dan administrator, dengan fitur sebagai berikut:
 
-### Fitur Administrator 🔒
-- Login Sistem: Akses aman menggunakan username dan password khusus pengelola/admin.
-- Manajemen Berita (CRUD): Admin dapat menambah, mengubah, menghapus, serta mengunggah gambar untuk artikel berita atau kegiatan wisata.
-- Moderasi Ulasan: Admin memiliki kontrol penuh untuk memfilter ulasan dari pengunjung. Sistem dilengkapi dengan status moderasi yaitu pending atau approved agar hanya ulasan yang valid dan sopan yang ditampilkan di halaman publik.
+### Fitur Pengunjung 
+- **Halaman Beranda:** Menampilkan informasi umum seperti fasilitas, kegiatan terbaru, jam operasional, harga tiket, dan lokasi wisata
+- **Informasi Fasilitas Wisata:** Menampilkan berbagai fasilitas seperti spot foto, terapi ikan, gazebo, pemancingan, dan fasilitas lainnya
+- **Informasi Kegiatan & Paket Edukasi:** Menyajikan kegiatan edukasi serta pilihan paket yang tersedia
+- **Berita Terbaru:** Menampilkan informasi kegiatan atau event terbaru di Naureen Mini Garden
+- **Ulasan Pengunjung:** Pengunjung dapat melihat dan memberikan ulasan berupa nama, email, rating, dan komentar
+- **Informasi Lokasi:** Menampilkan alamat lengkap serta peta lokasi wisata
+
+### Fitur Administrator
+- **Login Admin:** Digunakan untuk masuk ke dalam sistem menggunakan username dan password
+- **Dashboard Admin:** Halaman utama setelah login untuk mengakses menu pengelolaan data
+- **Kelola Berita:** Menampilkan dan mengelola daftar berita yang tersedia
+- **Tambah Berita:** Menambahkan data kegiatan atau artikel baru ke dalam sistem
+- **Edit & Hapus Berita:** Mengubah atau menghapus data berita yang sudah ada
+- **Kelola Komentar/Ulasan:** Menampilkan dan menghapus komentar dari pengunjung
+- **Manajemen Konten:** Mengatur seluruh data yang ditampilkan pada website
+
+---
+## Teknologi yang Digunakan
+- PHP Native (MVC)
+- MySQL Database
+- HTML, CSS, JavaScript
+- Bootstrap 5
+- Vue JS
 
 ---
 

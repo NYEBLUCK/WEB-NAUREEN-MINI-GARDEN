@@ -108,6 +108,10 @@
 
         <section id="terapi" class="dw-fish">
             <div class="dw-fish-container">
+                <div class="mb-5" data-aos="fade-up">
+                    <h2 class="dw-section-title" style="color: #2d5a27;">Terapi Ikan</h2>
+                    <p class="dw-section-sub mt-2" style="max-width: 700px;">Nikmati pengalaman terapi ikan yang unik dengan berbagai pilihan sensasi yang menyenangkan dan menenangkan.</p>
+                </div>
                 <div class="dw-fish-grid">
                     <div class="dw-fish-free" data-aos="fade-right">
                         <div class="dw-therapy-label">

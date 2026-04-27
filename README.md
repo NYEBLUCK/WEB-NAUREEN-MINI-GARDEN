@@ -114,39 +114,75 @@ naureen-mini-garden/
 ---
 
 ## ↳ Perancangan Database
-Database ini menggunakan sistem Relational Database Management System berbasis MySQL, dengan nama database yang digunakan adalah db_nmg.
-Secara konseptual, database ini dirancang untuk mendukung sebuah Content Management System sederhana dengan tiga entitas utama yang berdiri sendiri:
-- Entitas Admin (users): Bertugas mengelola hak akses ke dashboard (halaman belakang/ back-end).
-- Entitas Konten (berita): Bertugas menyimpan data publikasi wisata, kegiatan, dan produk.
-- Entitas Interaksi (reviews): Bertugas menampung umpan balik pengunjung dengan sistem moderasi.
+Database pada website Naureen Mini Garden menggunakan MySQL sebagai sistem pengelolaan data yang berfungsi untuk menyimpan dan mengelola seluruh informasi yang ditampilkan pada website.
+
+Database ini dirancang untuk mendukung pengelolaan data pada website, yang terdiri dari tiga bagian utama:
+- **Users (Admin)**: Mengelola hak akses ke dashboard (halaman admin)
+- **Berita (Konten)**: Menyimpan data kegiatan dan informasi wisata
+- **Reviews (Interaksi)**: Menampung ulasan atau komentar dari pengunjung, yang nantinya akan ditampilkan pada website setelah disetujui oleh admin
 
 ---
 
-## ↳ Struktur Tabel Database
-Database db_nmg terdiri dari beberapa tabel utama yang digunakan untuk mendukung jalannya sistem website, yaitu:
+## Struktur Tabel Database
 
-1. Tabel users
+### 1. Tabel Users
+Tabel ini digunakan untuk menyimpan data akun admin yang memiliki hak akses ke dalam sistem.
 
-    Tabel users digunakan untuk menyimpan data akun admin yang memiliki hak akses untuk mengelola website. Data pada tabel ini digunakan saat proses login ke dalam sistem. Tabel ini berfungsi untuk memastikan bahwa hanya pengguna yang memiliki akun admin yang dapat mengakses panel administrasi. Fungsi Tabel user:
-      - Menyimpan data akun admin
-      - Digunakan untuk proses login
-      - Mengamankan akses sistem
-      - Struktur Field Tabel Admin
+**Fungsi:**
+- Menyimpan data akun admin  
+- Digunakan dalam proses login  
+- Mengamankan akses sistem  
 
-2. Tabel Berita
+**Struktur Tabel:**
+| Field           | Tipe Data | Keterangan            |
+|-----------------|----------|----------------------|
+| id              | INT      | Primary key          |
+| username        | VARCHAR  | Username admin       |
+| password        | VARCHAR  | Password admin       |
+| nama_lengkap    | VARCHAR  | Nama lengkap admin   |
+| created_at      | TIMESTAMP| Waktu pembuatan akun |
 
-    Tabel berita digunakan untuk menyimpan data kegiatan atau informasi yang akan ditampilkan pada website. Data pada tabel ini akan muncul pada halaman berita atau kegiatan terbaru. Tabel ini memungkinkan admin untuk menambahkan, mengedit, dan menghapus informasi kegiatan secara digital melalui panel administrasi. Fungsi Tabel Berita:
-      - Menyimpan data kegiatan
-      - Menampilkan informasi berita pada website
-      - Mendukung fitur tambah, edit, dan hapus berita
-    
-3. Tabel reviews
+---
 
-    Tabel reviews digunakan untuk menyimpan data ulasan atau komentar yang diberikan oleh pengunjung pada website. Data pada tabel ini akan ditampilkan pada halaman ulasan setelah disetujui oleh admin. Tabel ini mendukung interaksi antara pengunjung dan pengelola website melalui fitur ulasan. Fungsi Tabel reviews:
-      - Menyimpan ulasan pengunjung
-      - Menampilkan komentar pada website
-      - Mendukung fitur persetujuan (ACC) komentar
+### 2. Tabel Berita
+Tabel ini digunakan untuk menyimpan data kegiatan atau informasi yang ditampilkan pada website.
 
+**Fungsi:**
+- Menyimpan data kegiatan  
+- Menampilkan informasi berita pada website  
+- Mendukung fitur tambah, edit, dan hapus berita  
+
+**Struktur Tabel:**
+| Field             | Tipe Data | Keterangan                   |
+|-------------------|----------|-------------------------------|
+| id                | INT      | Primary key                  |
+| judul             | VARCHAR  | Judul kegiatan/berita        |
+| tanggal_kegiatan  | DATE     | Tanggal kegiatan             |
+| deskripsi         | TEXT     | Isi atau detail kegiatan     |
+| gambar            | VARCHAR  | File gambar                  |
+| tanggal_posting   | TIMESTAMP| Waktu posting                |
+| updated_at        | TIMESTAMP| Waktu terakhir update        |
+
+---
+
+### 3. Tabel Reviews
+Tabel ini digunakan untuk menyimpan data ulasan atau komentar dari pengunjung.
+
+**Fungsi:**
+- Menyimpan ulasan pengunjung  
+- Menampilkan komentar pada website  
+- Mendukung sistem moderasi (ACC komentar)  
+
+**Struktur Tabel:**
+| Field       | Tipe Data | Keterangan              |
+|-------------|----------|--------------------------|
+| id          | INT      | Primary key              |
+| nama        | VARCHAR  | Nama pengunjung          |
+| email       | VARCHAR  | Email pengunjung         |
+| rating      | INT      | Nilai rating (1–5)       |
+| ulasan      | TEXT     | Isi komentar             |
+| status      | ENUM     | pending / approved       |
+| created_at  | TIMESTAMP| Waktu ulasan dibuat      |
 --- 
 
 ## ↳ Tampilan Website 

@@ -138,7 +138,7 @@ Adapun struktur masing-masing tabel adalah sebagai berikut:
 ### Halaman Pengunjung
 | Beranda | Tentang | Detail Wisata | Berita |
 |--------|--------------|---------|--------|
-| <img width="200" height="500" alt="screencapture-naureen-mini-garden-test-views-beranda-php-2026-04-28-00_14_13" src="https://github.com/user-attachments/assets/759eb1e6-120c-484c-a8e6-8e976dd3e01a" /> |<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/560092bd-7f85-41c3-8a7c-79eff633152f" /> |<img width="200" height="1000" alt="screencapture-naureen-mini-garden-great-site-net-views-detail-php-2026-04-27-20_09_56 (1)" src="https://github.com/user-attachments/assets/1fa8ff41-0b3d-45b7-9862-3ac3985c43be" />| <img width="192" height="367" alt="screencapture-naureen-mini-garden-test-views-berita-php-2026-04-28-00_15_22" src="https://github.com/user-attachments/assets/0d2024e0-2d24-493b-9ca2-29cc51f42ba3" /> |
+| <img width="200" height="500" alt="screencapture-naureen-mini-garden-test-views-beranda-php-2026-04-28-00_14_13" src="https://github.com/user-attachments/assets/759eb1e6-120c-484c-a8e6-8e976dd3e01a" /> |<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/560092bd-7f85-41c3-8a7c-79eff633152f" /> |<img width="200" height="1100" alt="screencapture-naureen-mini-garden-great-site-net-views-detail-php-2026-04-29-19_35_07 (1)" src="https://github.com/user-attachments/assets/255245c4-2d6d-4475-84f8-6c28d9c33272" />| <img width="192" height="367" alt="screencapture-naureen-mini-garden-test-views-berita-php-2026-04-28-00_15_22" src="https://github.com/user-attachments/assets/0d2024e0-2d24-493b-9ca2-29cc51f42ba3" /> |
 ---
 
 ### Halaman Admin

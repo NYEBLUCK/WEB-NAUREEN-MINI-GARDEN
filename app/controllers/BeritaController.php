@@ -8,14 +8,14 @@ $beritaModel = new BeritaModel($conn);
 if (isset($_GET['action']) && $_GET['action'] == 'getAll') {
     header('Content-Type: application/json');
     $data = $beritaModel->getAll();
-    echo json_encode(['status' => 'success', 'data' => $data]);
+    echo json_encode(['status' => 'success', 'data' => $data], JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE);
     exit();
 }
 
 if (isset($_GET['action']) && $_GET['action'] == 'getDetail' && isset($_GET['id'])) {
     header('Content-Type: application/json');
     $data = $beritaModel->getById($_GET['id']);
-    if ($data) echo json_encode(['status' => 'success', 'data' => $data]);
+    if ($data) echo json_encode(['status' => 'success', 'data' => $data], JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE);
     else echo json_encode(['status' => 'error', 'message' => 'Berita tidak ditemukan']);
     exit();
 }
